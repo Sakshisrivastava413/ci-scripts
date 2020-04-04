@@ -41,8 +41,11 @@ cd testmodel/testmine
 echo '#---><<<<'
 
 sleep 60 # let webapp startup
-
+echo 'webapp starting................'
 # Warm up the keyword search by requesting results, but ignoring the results
 $GET "http://localhost:8080/intermine-demo/service/search" > /dev/null
+
+echo 'webapp finished................'
+
 # Start any list upgrades
 $GET "http://localhost:8080/intermine-demo/service/lists?token=test-user-token" > /dev/null
