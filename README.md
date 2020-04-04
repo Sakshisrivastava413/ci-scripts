@@ -1,6 +1,6 @@
 # ci-scripts
 
-[![Build Status](https://travis-ci.org/intermine/ci-scripts.svg?branch=master)](https://travis-ci.org/intermine/ci-scripts)
+[![Build Status](https://travis-ci.org/Sakshisrivastava413/ci-scripts.svg?branch=master)](https://travis-ci.org/Sakshisrivastava413/ci-scripts)
 
 Shell scripts for setting up InterMine instances as part of CI.
 
