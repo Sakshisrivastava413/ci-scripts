@@ -38,6 +38,8 @@ echo '#---> Building and releasing web application to test against'
 cd testmodel/testmine
 ./setup.sh
 
+echo '#---><<<<'
+
 sleep 60 # let webapp startup
 
 # Warm up the keyword search by requesting results, but ignoring the results
